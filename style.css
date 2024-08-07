@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gupter", serif;
+}
+
+.logo-h1 h1{
+    text-shadow: 1px 2px 2px grey;
+}
+
+.content {
+    /* background-image: linear-gradient(#b8d9f8, rgb(255, 255, 255)); */
+    background-image: linear-gradient(to  right,#b8d9f8, rgb(255, 255, 255));
+}
+
+.budget-image {
+    box-shadow: 2px 2px 2px rgb(66, 63, 63);
+    border-radius: 10px;
+}
+
+
+.dummy-content h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.dummy-content p{
+    text-align: justify;
+}
+
+footer {
+    background-image: linear-gradient(to right,#b8d9f8, rgb(255, 255, 255));
+}
+
+
