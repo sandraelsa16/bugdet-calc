@@ -7,7 +7,7 @@ login.addEventListener("click",function(){
 })
 
 getStarted.addEventListener("click",function(){
-    window.location ='./login.html'
+    window.location ='./register.html'
 })
 
 register.addEventListener("click",function(){

@@ -9,13 +9,15 @@
 }
 
 .content {
-    /* background-image: linear-gradient(#b8d9f8, rgb(255, 255, 255)); */
-    background-image: linear-gradient(to  right,#b8d9f8, rgb(255, 255, 255));
+    /* background-image: linear-gradient(to  right,#b8d9f8, rgb(255, 255, 255)); */
+   background-color: rgb(210, 228, 240);
 }
 
 .budget-image {
-    box-shadow: 2px 2px 2px rgb(66, 63, 63);
+    padding: auto;
     border-radius: 10px;
+    height: 500px;
+    width: 100%;
 }
 
 
@@ -30,8 +32,109 @@
     text-align: justify;
 }
 
-footer {
-    background-image: linear-gradient(to right,#b8d9f8, rgb(255, 255, 255));
+/* footer {
+    /* background-image: linear-gradient(to right,#b8d9f8, rgb(255, 255, 255)); */
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/272/663/non_2x/blue-mint-watercolor-brush-paint-background-vector.jpg); */
+    /* background-size: cover; */
+/* } */ 
+
+.content-login {
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/272/663/non_2x/blue-mint-watercolor-brush-paint-background-vector.jpg);
+    background-size: cover; */
+    background-color: rgb(13, 111, 177);
 }
+
+.loginbox{
+    margin-top: 60px;
+    /* margin-left: 50px; */
+    height: 470px;
+    width: 500px;
+    padding:10px ;
+    /* background-color: rgba(228, 225, 225, 0); */
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px rgb(0, 0, 0); */
+}
+
+.registerbox{
+    margin-top: 50px;
+    margin-left: 50px;
+    height:530px;
+    width: 500px;
+    padding:20px ;
+    background-color: rgba(228, 225, 225, 0);
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px rgb(0, 0, 0); */
+}
+
+.heading{
+    /* text-shadow: 2px 2px 3px black; */
+    font-size: 50px;
+    color: rgb(2, 2, 107);
+    font-family: "Bona Nova SC", serif;
+}
+
+.login-img img{
+ margin-left: 120px;
+ margin-top: 40px;
+   /* border: 1px solid black; */
+}
+
+.register-img img{
+    margin-left: 120px;
+    margin-top: 50px;
+   
+}
+
+.loginbox label{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.loginbox input {
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    background-color: transparent;
+    box-shadow: inset 2px 1px 1px rgba(0, 0, 0, 0.651);
+}
+
+.loginbox button {
+    border-radius: 50px;
+    box-shadow:2px 2px 2px rgba(11, 80, 11, 0.674) ;
+    margin-bottom: 10px;
+   
+}
+
+.loginbox a {
+    color: darkblue;
+}
+
+.registerbox label{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.registerbox input {
+    /* border-radius: 20px; */
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    background-color: transparent;
+    /* box-shadow:  2px 1px 1px rgba(0, 0, 0, 0.651); */
+}
+
+.registerbox button {
+    border-radius: 50px;
+    box-shadow:2px 2px 2px rgba(11, 80, 11, 0.674) ; 
+    width: 250px;
+    margin: 0 auto;
+}
+
+.registerbox p {
+    margin-top: 10px;
+    margin-bottom:0 ;
+}
+
+.registerbox a {
+    color: darkblue;
+}
+
 
 
